@@ -3,11 +3,9 @@
 import { KeyboardDoubleArrowRight } from "@mui/icons-material";
 import { useEffect, useState } from "react";
 import { useScrollYPosition } from "react-use-scroll-position";
-console.log(window.scrollY);
 
 const GoTopBox = () => {
   let scrolly = useScrollYPosition();
-
   const [showBox, setShowBox] = useState("none");
   useEffect(() => {
     // window.scrollY;

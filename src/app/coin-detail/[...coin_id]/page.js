@@ -1,4 +1,4 @@
-import { fetchCoinDetail } from "@/app/api/fetch";
+import { fetchCoinDetail } from "@/fetch";
 import { ExitToApp } from "@mui/icons-material";
 import { IconButton } from "@mui/material";
 import Card from "@mui/material/Card";

@@ -1,5 +1,5 @@
+import { fetchData } from "../fetch";
 import LayoutBox from "./Components/LayoutBox";
-import { fetchData } from "./api/fetch";
 
 export default async function Home() {
   // fetchData();
